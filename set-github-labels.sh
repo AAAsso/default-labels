@@ -69,10 +69,15 @@ curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"x- bug in
 curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"x- bug","color":"e93a47"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
 curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"x- urgent","color":"83000a"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
 
-
-
-
-
+# -----------------------------
+# ----- Create WIP labels -----
+# -----------------------------
+echo ''
+echo 'Creating "project management" labels...'
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"0- in current milestone","color":"c2e0c6"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"1- in developement","color":"97CA9D"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"2- in test","color":"69AD71"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
+curl -u $TOKEN:x-oauth-basic --include --request POST --data '{"name":"3- validated","color":"3E8E48"}' "https://api.github.com/repos/$REPO_USER/$REPO_NAME/labels"
 
 
 
