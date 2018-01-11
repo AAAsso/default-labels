@@ -23,4 +23,4 @@ SH script to add labels of the AAAsso to all the managed repositories.
 Enjoy!
 
 # References
-This script is an edition of https://github.com/thisisarray/GitHub-Issues-Process/blob/master/set-github-labels.sh, if you likled it, please go say thanks to the devs and star the repo where this is comming from! :blue_heart:
+This script is an edition of https://github.com/thisisarray/GitHub-Issues-Process/blob/master/set-github-labels.sh, if you liked it, please go say thanks to the devs and star the repo where this is comming from! :blue_heart:
