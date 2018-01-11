@@ -1,6 +1,8 @@
 # Add labels used in the organization to a new repository
 SH script to add labels of the AAAsso to all the managed repositories.
 
+![preview of default labels under AAAsso organization](https://user-images.githubusercontent.com/23707217/34819347-c3448f20-f6bd-11e7-9348-fd0adfe52700.png)
+
 # How to use it?
 ## Get the file
 - Pull the project on your local environment.
